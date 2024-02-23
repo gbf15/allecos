@@ -26,7 +26,9 @@ body {
   .menu-toggle:hover .menu-icon span {
     background-color: red;
   }
-  
+  #center:nth-child(1) {
+    transition-delay: 1s;
+  }
   .menu-icon {
     display: block;
     width: 30px;
@@ -423,7 +425,7 @@ body {
             transform: translateY(-8px) rotate(-45deg);
           }
           }
-          @media (max-width:300px) and (min-width: 200px){
+          @media (max-width:320px) and (min-width: 150px){
             .menu {
                 list-style: none;
                 padding: 15px 20px 220px 20px;
